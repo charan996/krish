@@ -1,0 +1,40 @@
+{% extends 'html/header.html' %}
+{% block title %}CRUD Operations{% endblock %}
+{% block content %}
+<div class="container">
+	<div class="row">
+		<div class="card col-md-4 mt-3 shadow lg h-25">
+			<h3 class="p-3 bg-primary text-center text-white mt-3 border rounded">Add Items</h3>
+			<form method="POST" enctype="multipart/form-data">
+				{% csrf_token %}
+				{{ a.as_p }}
+				<input type="submit" value="create" class="form-control my-2 col-sm btn btn-success">
+		</div>
+		<div class="card col-md-8 mt-3 shadow-lg">
+			<h3 class="p-3 bg-primary text-center text-white mt-3 border rounded">Item Details</h3>
+			<table class="table table-striped table-hover table-borderless"><tr class="bg-dark text-light">
+				<td>sno</td>
+				<td>Item Type</td>
+				<td>Item Name</td>
+				<td>Quantity</td>
+				<td>Price</td>
+				<td>Actions</td>
+			</tr>
+			{% for k in e %}
+			<tr>
+				<td>{{forloop.counter}}</td>
+				<td>{{k.item_type}}</td>
+				<td>{{k.item_name}}</td>
+				<td>{{k.quantity}}</td>
+				<td>{{k.price}}</td>
+				<td><a href="{% url 'ue' k.id %}" class="btn btn-info">Edit</a>  <a href="{% url 'infodelete' k.id %}" class="btn btn-danger">Delete</a>   
+					
+
+				</td>
+			</tr>
+		{% endfor %}
+	</table>
+</div>
+</div>
+</div>
+{% endblock %}

@@ -1,0 +1,30 @@
+
+{% extends 'html/header.html' %}
+{% block title %} Update Vegetables/Fruits {% endblock %}
+{% block content %}
+<div class="container mt-4">
+  <div class="card col-md-6 mx-auto">
+    <div class="card-body">
+      <h3>Update Vegetable/Fruit</h3>
+      <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <table class="table table-borderless">
+          {% for n in e %}
+          <tr>
+            <td>{{n}}</td>
+          </tr>
+          {% endfor %}
+        </table>
+        <div class="row">
+            <div class="col">
+              <a href="{% url 'da' %}" class="btn btn-info col-sm">Back</a>
+            </div>
+            <div class="col">
+              <input type="submit" value="submit" class="btn btn-success col-sm">
+            </div>
+          </div>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}

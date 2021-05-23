@@ -1,0 +1,12 @@
+{% extends 'html/header.html' %}
+{% block title %}logout{% endblock %}
+{% block content %}
+<div class="container">
+	<div class="card col-md-6 mx-auto mt-4 bg-warning">
+		<h3 class="mx-auto p-3">logout</h3>
+		<div class="card-body">
+			<h3> You have Successfully logged out Please click here to login <a href="{% url 'lgo' %}" class="form-control btn btn-secondary">Login</a></h3>
+		</div>
+	</div>
+</div>
+{% endblock %}

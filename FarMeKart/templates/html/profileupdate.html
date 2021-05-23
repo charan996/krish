@@ -1,0 +1,130 @@
+{% extends 'html/header.html' %}
+{% block title %}Update Profile{% endblock %}
+{% block content %}
+<div class="container">
+	<!-- <div class="row"> -->
+		<!-- <div class="col-md-8 h-20 mt-4 card shadow-lg mx-1"> -->
+			<!-- <h3 class="p-2 bg-info text-center text-light border rounded my-2">Info</h3>
+			<img src="#" height="200px" width="100%">
+			<div class="card-body"> -->
+		<div class="col-md-8 mt-4 card shadow-lg mx-auto">
+			<h3 class="p-2 bg-info text-center text-light border rounded my-2 ">Hi {{user.username}} Update Your Profile</h3>
+			{% if user.role == 1 %}
+			<table class="table table-borderless">
+				<tr>
+					<th>Farmer Name :</th>
+					<td>{{user.Farmer_name}}</td>
+				</tr>
+				<tr>
+					<th>Farm Size:</th>
+					<td>{{user.Farm_size}}</td>
+				</tr>
+				<tr>
+					<th>Pass_book_no :</th>
+					<td>{{user.Pass_book_no}}</td>
+				</tr>
+				<tr>
+					<th>Email ID :</th>
+					<td>{{user.email}}</td>
+				</tr>
+				<tr>
+					<th>Phone Number :</th>
+					<td>{{user.ph_no}}</td>
+				</tr>
+				<tr>
+					<th>Postal Code :</th>
+					<td>{{user.Postal_code}}</td>
+				</tr>
+				<tr>
+					<th>State :</th>
+					<td>{{user.State}}</td>
+				</tr>
+				<tr>
+					<th>Country :</th>
+					<td>{{user.Country}}</td>
+			</tr>
+			</table>
+		<div class="row">
+					<div class="col">
+						<a href="{% url 'dsh' %}" class="form-control m-2 btn btn-danger col-sm-5 text-light">Back</a>
+					</div>
+					<div class="col">
+						<a href="{% url 'orgup' %}" class="form-control m-2 btn btn-success col-sm-5  text-light">Update</a>
+					</div>
+				</div>
+			{% elif user.role == 2 %}
+			<table class="table table-borderless">
+				<!-- <tr>
+					<th>Restaurant_name :</th>
+					<td>{{user.Restaurant_name}}</td>
+				</tr>
+				<tr>
+					<th>Manager_name :</th>
+					<td>{{user.Manager_name}}</td>
+				</tr>
+				<tr>
+					<th>Staff_count :</th>
+					<td>{{user.Staff_count}}</td>
+				</tr>
+				<tr>
+					<th>Restaurantarea</th>
+					<td>{{user.Restaurantarea}}</td>
+				 --><!-- </tr> -->
+				<tr>
+					<th>Email ID :</th>
+					<td>{{user.email}}</td>
+				</tr>
+				<tr>
+					<th>Phone Number :</th>
+					<td>{{user.ph_no}}</td>
+				</tr>
+				<tr>
+					<th>Postal Code :</th>
+					<td>{{user.Postal_code}}</td>
+				</tr>
+				<tr>
+					<th>State :</th>
+					<td>{{user.State}}</td>
+				</tr>
+				<tr>
+					<th>Country :</th>
+					<td>{{user.Country}}</td>
+				</tr>
+			</table>
+				<div class="row">
+					<div class="col">
+						<a href="{% url 'pf' %}" class="form-control m-2 btn btn-danger col-sm-5 text-light">Back</a>
+					</div>
+					<div class="col">
+						<a href="{% url 'orgup' %}" class="form-control m-2 btn btn-success col-sm-5  text-light">Update</a>
+					</div>
+				</div>
+				{% else %}
+				<table class="table table-borderless">
+				<tr>
+					<th>Username :</th>
+					<td>{{user.username}}</td>
+				</tr>
+				<tr>
+					<th>Email ID :</th>
+					<td>{{user.email}}</td>
+				</tr>
+				<tr>
+					<th>Phone Number</th>
+					<td>{{user.mobile_number}}</td>
+				</tr>
+			</table>
+				<div class="row">
+					<div class="col">
+						<a href="{% url 'dsh' %}" class="form-control m-2 btn btn-danger col-sm-5 text-light">Back</a>
+					</div>
+					<div class="col">
+						<a href="{% url 'orgup' %}" class="form-control m-2 btn btn-success col-sm-5  text-light">Update</a>
+					</div>
+				</div>
+
+			{% endif %}
+		
+		</div>
+	</div>
+{% endblock %}

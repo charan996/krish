@@ -1,0 +1,32 @@
+{% extends 'html/header.html' %}
+{% block title %}Login{% endblock %}
+{% block content %}
+<div class="container">
+	<div class="row">
+		<div class="card bg-warning col-md mt-4 shadow-lg mx-1">
+	<h3 class="mx-auto mt-3">Social Networks</h3>
+	<a href="" class="btn btn-primary mt-2">Google</a>
+	<a href="" class="btn btn-dark mt-2">Github</a>
+</div>
+	<div class="card col-md mt-4 shadow-lg mx-1 bg-dark text-light">
+		<h3 class="mx-auto mt-3">Login</h3>
+		<div class="card-body">
+		<form method="post">
+			{% csrf_token %}
+			<input type="text" name="username" placeholder="Enter Username" class="form-control my-2">
+			<input type="password" name="password" placeholder="Enter Password" class="form-control my-2">
+			<div class="row">
+				<div class="col">
+					 <a href="{% url 'rg' %}" class="btn btn-primary col-sm my-2">New User</a>
+				</div>
+				<div class="col">
+					<input type="submit" value="Login" class="form-control my-2 col-sm btn btn-primary">
+				</div>
+			</div>
+		</form>
+		<a href="{% url 'rt' %}" class="btn btn-block btn-success">Forgot Password</a>
+		</div>
+	</div>
+</div>
+</div>
+{% endblock %}

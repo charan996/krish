@@ -1,0 +1,70 @@
+{% extends 'html/header.html' %}
+{% block title %}Cart{% endblock %}
+{% block content %}
+<div class="container-fluid" style="margin-top: 25px;">
+	{% if user.extpro.is_farmer %}
+		<div class="row">
+		{% for k in it %}
+		<tr>
+			<div class="col col-md-3">
+				<div class="card my-2">
+					<img class="card-img-top" src="{{k.impf.url}}" alt="Card image" style="height:150px;width:100%">
+					<div class="card-body">
+					<h3>{{k.item_name}}</h3>
+					<h6>Stock <span class="bg-success text-light border rounded border-danger p-1 mx-1">{{k.quantity}} Kgs</span><span>{% if k.is_stock == 0 %}<span class="bg-secondary text-light p-1 border rounded">Available</span>{% else %}<span class="bg-danger text-light border rounded p-1">Out of Stock</span>{% endif%}</span></h6>
+				<div class="row mt-3">
+					<div class="col">
+						<a href="#" class="btn btn-info text-light col-sm">Add to Cart</a>
+					</div>
+					<div class="col">
+						<a href="#" class="btn btn-success text-light col-sm">Rs.{{k.price}}</a>
+					</div>
+				</div>
+				</div>
+				</div>
+			</div>
+		</tr>
+		{% endfor %}
+		</div>
+		{% else %}
+		<div class="row">
+		{% for k in data %}
+		<tr>
+			<div class="col col-md-3">
+				<div class="card ">
+					<h3 class="bg-warning text-center border rounded p-1">{{k.item_type}}</h3>
+					<!-- <h3 class="bg-warning text-center border rounded p-1">{{k.item_name}}</h3> -->
+					<img class="card-img-top" src="{{k.impf.url}}" alt="Card image" style="height:150px;width:100%">
+					<h3 class="bg-warning text-center border rounded p-1">{{k.item_name}}</h3>
+
+					<div class="card-body">
+					 <span>{{k.6}}</span></h5> 
+					<h6>Stock <span class="bg-success text-light border rounded border-danger p-1 mx-1">{{k.quantity}} Kgs</span><span>{% if k.quantity == 0 %}<span class="bg-secondary text-light p-1 border rounded">Out of stock</span>{% else %}<span class="bg-danger text-light border rounded p-1">Available</span>{% endif%}</span></h6>
+					<!-- <div class="col">
+						<a href="#" class="btn btn-success text-light col-sm">Rs.{{k.price}}</a>
+					</div> -->
+			
+				<div class="row mt-3">
+					<form method="POST" action="{% url 'ca' k.id %}">
+						{% csrf_token %}
+						<div class="col">
+					<button type="submit" class="btn btn-primary">Add to cart</button>
+					</div>
+				</form>
+					<div class="col">
+						<a href="#" class="btn btn-success text-light col-sm">Rs.{{k.price}}</a>
+					</div>
+				</div>
+					
+					
+					
+						</div>
+			
+				</div>
+			</div>
+		</tr>
+		{% endfor %}
+		</div>
+	{% endif %}
+</div>
+{% endblock %}

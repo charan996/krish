@@ -1,0 +1,24 @@
+{% extends 'html/header.html'%}
+{% block title %}aboutus{% endblock %}
+{% block content %}
+{% load static %}
+
+
+<div class="container">
+	<div class="row mt-4">
+		<div class="card col mx-1">
+			 <div class="card-body">
+			 	<img src="{% static 'images/a1a2.jpg' %}"  width="80%" height="80%">
+			 	
+			 </div>
+		</div>
+		<div class="card col mx-1">
+			 <div class="card-body bg-dark text-white">
+			 	<h3>This webpage is the best platform for the farmer to sell their products/crops. Its purpose is to give profit to the farmer. It allows the farmer to sell their crop at their own price. It provides direct communication between farmers and customers. The farmer will get more profit as compared to the manual existing system. The farmer need not go to the market for selling products. 
+			 	</h3>
+			 </div>
+		</div>
+	</div>
+ </div>
+	
+{% endblock %}

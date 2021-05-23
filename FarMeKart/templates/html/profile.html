@@ -1,0 +1,40 @@
+
+{% extends 'html/header.html' %}
+{% block title %}profile{% endblock %}
+{% block content %}
+{% load static %}
+<div class="container">
+	<div class="row">
+		<div class="col-md-4 h-20 mt-4 card shadow-lg mx-1">
+			<h3 class="p-2 bg-warning text-center text-light border rounded my-2">Info</h3>
+			<img src="{{user.extpro.impf.url}}">
+			<div class="card-body">
+				<h4>{{user.username}}</h4>
+				<div class="row">
+					<div class="col">
+						<a href="{% url 'dsh' %}" class="form-control m-2 btn btn-info text-light">Back</a>
+					</div>
+				<div class="col">
+					<a href="{% url 'upf' %}" class="form-control m-2 btn btn-info text-light">update</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-md mt-4 card mx-1 shadow-lg">
+		<h3 class="p-2 bg-info text-center text-light border rounded my-2">user details</h3>
+		<table class="table table-borderless">
+			<tr>
+				<th>Username</th>
+				<td>{{user.username}}</td>
+			</tr>
+			<tr>
+				<th>Email</th>
+				<td>{{user.email}}</td>
+
+			</tr>
+		</table>
+	</div>
+</div>
+</div>
+
+{% endblock %}

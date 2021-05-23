@@ -1,0 +1,29 @@
+{% extends 'html/header.html' %}
+{% block title %}Update Profile{% endblock %}
+{% block content %}
+<div class="container">
+	<div class="card col-md-6 mx-auto mt-4">
+		<div class="card-body">
+		<h3 class="p-2">Update Profile</h3>
+		<form method="post">
+			{% csrf_token %}
+			<table class="table table-borderless">
+				{% for k in z %}
+				<tr>
+					<td>{{k}}</td>
+				</tr>
+				{% endfor %}
+			</table>
+			<div class="row">
+				<div class="col">
+					<a href="{% url 'pf' %}" class="btn btn-secondary btn-block my-2">Cancel</a>
+				</div>
+				<div class="col">
+				<input type="submit" value="Update" class="btn btn-block btn-success my-2">	
+				</div>
+			</div>
+		</form>
+		</div>
+	</div>
+</div>
+{% endblock %}

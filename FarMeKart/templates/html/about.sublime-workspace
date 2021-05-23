@@ -1,0 +1,431 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"No",
+				"Noteapp"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"model",
+				"ModelForm"
+			],
+			[
+				"Nte",
+				"Noteapp"
+			],
+			[
+				"def",
+				"default"
+			],
+			[
+				"se",
+				"settings"
+			],
+			[
+				"d",
+				"django"
+			],
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"u",
+				"UserCreationForm"
+			],
+			[
+				"tab",
+				"table-borderless"
+			],
+			[
+				"te",
+				"text-light"
+			],
+			[
+				"N",
+				"NewUsrForm"
+			],
+			[
+				"n",
+				"NewData"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"im",
+				"import"
+			],
+			[
+				"home",
+				"homepage"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "changepassword.html",
+			"settings":
+			{
+				"buffer_size": 568,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/maneesha/Batch15/Notesharing/Noteapp/templates/stc/farmerdashboard.html",
+		"/D/maneesha/Batch15/Notesharing/Noteapp/templates/stc/data.html",
+		"/D/maneesha/Batch15/Notesharing/Noteapp/admin.py",
+		"/D/maneesha/Batch15/Notesharing/Noteapp/apps.py",
+		"/D/maneesha/Batch15/Notesharing/Noteapp/forms.py",
+		"/D/maneesha/Batch15/Notesharing/Noteapp/models.py",
+		"/D/maneesha/Batch15/Notesharing/Noteapp/templates/stc/update.html",
+		"/C/Users/student/Desktop/project/newproject/pro",
+		"/D/maneesha/Batch15/Notesharing/Noteapp/templates/html/updateprofile.html",
+		"/D/maneesha/Batch15/Notesharing/Noteapp/templates/html/userdelete.html",
+		"/D/maneesha/Batch15/Notesharing/Noteapp/templates/stc/base.html",
+		"/D/maneesha/Batch15/Notesharing/Noteapp/templates/html/data.html",
+		"/D/maneesha/Batch15/Notesharing/Noteapp/urls.py",
+		"/D/maneesha/Batch15/Notesharing/Noteapp/views.py",
+		"/D/maneesha/Batch15/Notesharing/Noteapp/templates/stc/changepassword.html",
+		"/D/maneesha/Batch15/Notesharing/Noteapp/templates/html/about.html",
+		"/D/maneesha/Batch15/Notesharing/Noteapp/templates/html/contact.html",
+		"/C/Users/student/Desktop/project/newproject/FarMeKart/templates/html/about.html",
+		"/D/maneesha/Batch15/Notesharing/Noteapp/templates/farmerdashboard.html",
+		"/D/maneesha/Batch15/Notesharing/Noteapp/templates/stc/login.html",
+		"/D/maneesha/Batch15/Notesharing/Noteapp/templates/stc/resetpassword.html",
+		"/D/maneesha/Batch15/pstp/templates/rm/bthome.html",
+		"/D/maneesha/Batch15/Notesharing/Noteapp/templates/stc/navbar.html",
+		"/D/maneesha/Batch15/Notesharing/Noteapp/templates/stc/profile.html",
+		"/D/maneesha/Batch15/Notesharing/Notesharing/settings.py",
+		"/D/maneesha/Batch15/Notesharing/Notesharing/urls.py",
+		"/D/maneesha/Batch15/Notesharing/Noteapp/templates/stc/complaint.html",
+		"/D/maneesha/Batch15/Notesharing/Noteapp/templates/stc/home.html",
+		"/D/maneesha/Batch15/Notesharing/Noteapp/static/jquery/sample.js",
+		"/D/maneesha/Batch15/Notesharing/Noteapp/static/jquery",
+		"/D/maneesha/Batch15/pstp/Notesharing/Noteapp/templates/stc/navbar.html",
+		"/D/maneesha/Batch15/pstp/Notesharing/Noteapp/templates/stc/dashboard.html",
+		"/D/maneesha/Batch15/pstp/Notesharing/Noteapp/views.py",
+		"/D/maneesha/Batch15/pstp/Notesharing/Noteapp/urls.py",
+		"/D/maneesha/Batch15/pstp/Notesharing/Noteapp/templates/stc/logout.html",
+		"/D/maneesha/Batch15/pstp/Notesharing/Noteapp/templates/stc/profile.html",
+		"/D/maneesha/Batch15/pstp/Notesharing/Notesharing/settings.py",
+		"/D/maneesha/Batch15/pstp/Notesharing/Noteapp/forms.py",
+		"/D/maneesha/Batch15/pstp/Notesharing/Noteapp/templates/stc/register.html",
+		"/D/maneesha/Batch15/pstp/Notesharing/Noteapp/templates/stc/login.html",
+		"/D/maneesha/Batch15/pstp/Notesharing/Noteapp/templates/register.html",
+		"/D/maneesha/Batch15/pstp/Notesharing/Noteapp/templates/forms.py",
+		"/D/maneesha/Batch15/pstp/Notesharing/Noteapp/templates/stc/contact.html",
+		"/D/maneesha/Batch15/pstp/Notesharing/Noteapp/templates/stc/about.html",
+		"/D/maneesha/Batch15/pstp/Notesharing/Noteapp/static/images/icon1.png",
+		"/D/maneesha/Batch15/pstp/Notesharing/Noteapp/templates/stc/base.html",
+		"/D/maneesha/Batch15/pstp/Notesharing/Noteapp/templates/stc/home.html",
+		"/D/maneesha/Batch15/pstp/Notesharing/Notesharing/urls.py",
+		"/D/maneesha/Batch15/employee/emp/models.py",
+		"/D/maneesha/Batch15/employee/emp/forms.py",
+		"/D/maneesha/Batch15/employee/emp/templates/html/uinfo.html",
+		"/D/maneesha/Batch15/employee/emp/templates/html/updateuser.html",
+		"/D/maneesha/Batch15/employee/emp/templates/html/details.html",
+		"/D/maneesha/Batch15/employee/emp/templates/html/showdata.html",
+		"/D/maneesha/Batch15/pstp/urls.py",
+		"/D/maneesha/Batch15/pstp/templates/rm/homepage.html",
+		"/D/maneesha/Batch15/employee/emp/templates/html/navbar.html",
+		"/D/maneesha/Batch15/pstp/static/css/sample.css",
+		"/D/maneesha/Batch15/pstp/apps.py",
+		"/D/maneesha/Batch15/pstp/static/js/sample.js",
+		"/D/maneesha/Batch15/pstp/templates/rm/index.html",
+		"/D/maneesha/Batch15/pstp/templates/rm/forms.html",
+		"/D/maneesha/Batch15/employee/emp/urls.py",
+		"/D/maneesha/Batch15/employee/emp/templates/html/useredit.html",
+		"/D/maneesha/Batch15/employee/emp/views.py",
+		"/D/maneesha/Batch15/employee/emp/templates/html/userdelete.html",
+		"/D/maneesha/Batch15/employee/emp/templates/html/dyform.html",
+		"/D/maneesha/Batch15/employee/emp/templates/show.html",
+		"/D/maneesha/Batch15/employee/employee/forms.py",
+		"/D/maneesha/Batch15/employee/emp/templates/html/home.html",
+		"/D/maneesha/Batch15/employee/emp/templates/html/actions.html",
+		"/D/maneesha/Batch15/employee/emp/templates/html/header.html",
+		"/D/maneesha/Batch15/employee/emp/templates/html/register.html",
+		"/D/maneesha/Batch15/employee/emp/templates/html/login.html",
+		"/D/maneesha/Batch15/pstp/templates/rm/register.html",
+		"/D/maneesha/Batch15/pstp/views.py",
+		"/D/maneesha/Batch15/employee/employee/settings.py",
+		"/D/maneesha/Batch15/employee/emp/templates/html/about.html",
+		"/D/maneesha/Batch15/employee/emp/templates/html/contact.html",
+		"/D/maneesha/Batch15/employee/employee/urls.py",
+		"/D/maneesha/Batch15/pstp/templates/rm/about.html",
+		"/D/maneesha/Batch15/pstp/templates/rm/contact.html",
+		"/D/maneesha/Batch15/pstp/templates/rm/login1.html",
+		"/D/maneesha/Batch15/pstp/templates/rm/register.html/register.html",
+		"/D/maneesha/Batch15/pstp/templates/login.html",
+		"/D/maneesha/Batch15/Batch15/urls.py",
+		"/D/maneesha/Batch15/Batch15/settings.py",
+		"/D/dfolder/asdf/manage.py",
+		"/D/dfolder/asdf/asdf/asgi.py",
+		"/D/dfolder/asdf/asdf/settings.py",
+		"/D/dfolder/asdf/asdf/wsgi.py",
+		"/D/dfolder/asdf/asdf/urls.py",
+		"/D/dfolder/asdf/asdf/__init__.py",
+		"/D/dfolder/asdf/db.sqlite3"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "changepassword.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 568,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 102.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "about.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 224.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

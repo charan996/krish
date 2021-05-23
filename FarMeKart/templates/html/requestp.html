@@ -1,0 +1,32 @@
+{% extends 'html/header.html' %}
+{% block title %}Request{% endblock %}
+{% block content %}
+<div class="container mt-2">
+	<div class="card col-md-6 mx-auto mt-2 shadow-lg">
+		<h3 class="text-center text-white bg-info border rounded p-2 mt-2">Request Role</h3>
+		<div class="card-body">
+			<form method="POST" enctype="multipart/form-data">
+				{% csrf_token %}
+		<table class="table table-borderless">
+			{% for m in y %}
+			<tr>
+				<td>{{m}}</td>
+			</tr>
+			{% endfor %}
+		</table>
+		<input type="number" name="age" class="form-control my-3" placeholder="Enter your UID">
+		
+		<input type="file" name="fil" class="form-control my-4" placeholder="Enter your Mail">
+		<textarea type="text" name="ad" class="form-control my-4" cols="10" rows="5" placeholder="Leave us a message"></textarea>
+		
+		<input type="submit" value="Send" class="btn btn-info text-white  col-sm">
+		<!-- input type="number" name="age" class="form-control my-3" placeholder="Enter your UID">
+		<input type="file" name="fil" class="form-control my-4" placeholder="post your proofid">
+		<input type="text" name="ad" class="form-control my-4" placeholder="Leave Us A Message">
+		<input type="submit" value="Approve My Request" class="btn btn-info -->   
+		</form>
+	</div>
+</div>
+	
+</div>
+{% endblock %}

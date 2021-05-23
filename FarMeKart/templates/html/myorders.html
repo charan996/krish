@@ -1,0 +1,39 @@
+{% extends 'html/header.html' %}
+{% block content %}
+{% load static %}
+<div class="row mt-3">
+    <div class="container">
+    <div class="">
+     <!-- <h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>{{count}}</b></span></h4> -->
+   
+     <table class="table table-striped">
+     
+      <tr>
+      <th>itemname</th>
+      <th>Price</th>
+      <th>Ordered Date</th>
+      <th>Status</th>
+     
+      </tr>
+      {% for info in my %}
+      <tr>
+         <td>{{info.item_name}}</td>
+         <td><span class="price">Rs.{{info.price}}</span></td>
+         <td><span class="Date">{{info.date}}</span></td>
+         {% if info.is_status == 1 %}
+         <td>Delivered</td>
+         {% else %}
+         <td>Pending</td>
+         {% endif %}
+       </tr>
+       {% endfor %}
+       <tr>
+        <th>Total</th>
+        <th><p><b>Rs.{{sum}}</b></p></th>
+       </tr>
+     </table>
+     
+</div>
+</div>
+  </div>
+{% endblock %}
